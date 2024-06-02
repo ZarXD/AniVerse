@@ -19,7 +19,7 @@ Jangan lewatkan rilis anime terbaru! Dengan AniVerse API, Anda dapat melihat daf
 
 ## 🔍 Endpoint API
 
-Base URL: `https://aniverse.pythonanywhere.com`
+Base URL: `https://aniverse-api.vercel.app/`
 
 1. **Pencarian Anime**
    - **URL**: `/api/search?q={query}`
@@ -27,7 +27,7 @@ Base URL: `https://aniverse.pythonanywhere.com`
    - **Deskripsi**: Temukan anime berdasarkan judul atau kata kunci tertentu.
 
 2. **Detail Anime**
-   - **URL**: `/api/anime?url={anime_url}`
+   - **URL**: `/api/details?url={anime_url}`
    - **Metode**: GET
    - **Deskripsi**: Dapatkan detail tentang sebuah anime berdasarkan URL-nya.
 
@@ -40,17 +40,17 @@ Base URL: `https://aniverse.pythonanywhere.com`
 
 1. **Pencarian Anime**
    ```bash
-   GET https://aniverse.pythonanywhere.com/api/search?q=naruto
+   GET https://aniverse-api.vercel.app/api/search?q=naruto
    ```
 
 2. **Detail Anime**
    ```bash
-   GET https://aniverse.pythonanywhere.com/api/anime?url=https://samehada.care/anime/naruto/
+   GET https://aniverse-api.vercel.app/api/anime?url=https://samehada.care/anime/naruto/
    ```
 
 3. **Rilis Anime Terbaru**
    ```bash
-   GET https://aniverse.pythonanywhere.com/api/release
+   GET https://aniverse-api.vercel.app/api/release
    ```
 
 ## 📦 Format Tanggapan
